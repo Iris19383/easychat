@@ -1,8 +1,8 @@
 /* 引入自定義字形 */
 @font-face {
   font-family: 'CustomFont';
-  src: url('fonts/font.woff2') format('woff2'),
-       url('fonts/font.woff') format('woff');
+  src: url('font.woff2') format('woff2'),
+       url('font.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
 /* 全局樣式 */
 body {
   font-family: 'CustomFont', sans-serif; /* 使用自定義字形 */
-  background-image: url('images/background.png'); /* 背景圖片 */
+  background-image: url('background.png'); /* 背景圖片 */
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff; /* 文字顏色 */
